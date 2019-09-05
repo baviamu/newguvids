@@ -8,13 +8,13 @@ self.deva.append(data)
 def pop(self):
 return self.deva.pop()
 subi= Stack()
-barathi = input(&#39; &#39;)
+barathi = input('')
 for char in barathi:
 subi.push(char)
-rev_text = &#39;&#39;
+rev_text = "
 while not subi.is_empty():
 rev_text = rev_text + subi.pop()
 if barathi== rev_text:
-print(&#39;YES&#39;)
+print(YES)
 else:
-print(&#39;NO&#39;)
+print(NO)
